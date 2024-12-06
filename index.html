@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Bros</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+<header>
+  <div class="logo">
+    <img src="https://cdn-icons-gif.flaticon.com/14183/14183808.gif" alt="Barber Bros Logo">
+    <h1>Barber Bros</h1>
+  </div>
+  <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">Switch Mode</button>
+</header>
+
+<nav class="sticky-nav">
+  <div class="language-toggle">
+    <select id="language-toggle" aria-label="Select Language">
+      <option value="en" data-flag="🇬🇧">English</option>
+      <option value="nl" data-flag="🇳🇱">Dutch</option>
+      <option value="ar" data-flag="🇸🇦">Arabic</option>
+    </select>
+  </div>
+  <a href="#home" data-en="Home" data-nl="Home" data-ar="الصفحة الرئيسية">Home</a>
+  <a href="#services" data-en="Services" data-nl="Diensten" data-ar="الخدمات">Services</a>
+  <a href="#about" data-en="About" data-nl="Over ons" data-ar="معلومات عنا">About</a>
+  <a href="#gallery" data-en="Gallery" data-nl="Galerij" data-ar="معرض الصور">Gallery</a>
+  <a href="#REVIEWS" data-en="Reviews" data-nl="Beoordelingen" data-ar="المراجعات">Reviews</a>
+  <a href="#appointment" data-en="Book Appointment" data-nl="Afspraak maken" data-ar="حجز موعد">Book Appointment</a>
+  <a href="#contact" data-en="Contact" data-nl="Contact" data-ar="اتصل بنا">Contact</a>
+</nav>
+<section id="home">
+  <h2 data-en="Welcome to Barber Bros" data-nl="Welkom bij Barber Bros" data-ar="مرحبًا بكم في Barber Bros">Welcome to Barber Bros</h2>
+  <p data-en="Experience top-notch grooming services in a professional environment." data-nl="Ervaar eersteklas verzorgingsdiensten in een professionele omgeving." data-ar="تجربة خدمات العناية من الدرجة الأولى في بيئة احترافية.">Experience top-notch grooming services in a professional environment.</p>
+</section>
+
+<section id="services">
+  <h2 data-en="Our Services" data-nl="Onze diensten" data-ar="خدماتنا">Our Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3 data-en="Haircut" data-nl="Kapsel" data-ar="قص الشعر">Haircut</h3>
+      <p data-en="Precision cuts tailored to your style." data-nl="Precisieknipsels op maat van uw stijl." data-ar="قصات دقيقة تناسب أسلوبك.">Precision cuts tailored to your style.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €25</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 30 minutes</p>
+    </div>
+    <div class="service-card">
+      <h3 data-en="Beard Trim" data-nl="Baard trimmen" data-ar="تشذيب اللحية">Beard Trim</h3>
+      <p data-en="Keep your beard sharp and neat." data-nl="Houd je baard scherp en netjes." data-ar="حافظ على لحيتك حادة ومرتبة.">Keep your beard sharp and neat.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €15</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 15 minutes</p>
+    </div>
+    <div class="service-card">
+      <h3 data-en="Styling" data-nl="Styling" data-ar="تصميم">Styling</h3>
+      <p data-en="Creative styles to match your personality." data-nl="Creatieve stijlen die bij je persoonlijkheid passen." data-ar="أنماط إبداعية تتناسب مع شخصيتك.">Creative styles to match your personality.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €20</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 20 minutes</p>
+    </div>
+    <!-- New Services Added -->
+    <div class="service-card">
+      <h3 data-en="Hair Color" data-nl="Haarkleur" data-ar="لون الشعر">Hair Color</h3>
+      <p data-en="Vibrant, long-lasting hair color to suit your style." data-nl="Levendige, langdurige haarkleur die bij je stijl past." data-ar="لون شعر نابض بالحياة وطويل الأمد ليناسب أسلوبك.">Vibrant, long-lasting hair color to suit your style.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €40</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 45 minutes</p>
+    </div>
+    <div class="service-card">
+      <h3 data-en="Shave" data-nl="Scheren" data-ar="حلاقة">Shave</h3>
+      <p data-en="A classic hot shave for a smooth, clean finish." data-nl="Een klassieke hete scheerbeurt voor een gladde, schone afwerking." data-ar="حلاقة ساخنة كلاسيكية للحصول على لمسة نهائية ناعمة ونظيفة.">A classic hot shave for a smooth, clean finish.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €20</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 30 minutes</p>
+    </div>
+    <div class="service-card">
+      <h3 data-en="Facial" data-nl="Gezichtsbehandeling" data-ar="علاج الوجه">Facial</h3>
+      <p data-en="Relaxing facial treatments to rejuvenate your skin." data-nl="Ontspannende gezichtsbehandelingen om je huid te verjongen." data-ar="علاجات الوجه المريحة لتجديد بشرتك.">Relaxing facial treatments to rejuvenate your skin.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €35</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 40 minutes</p>
+    </div>
+    <div class="service-card">
+      <h3 data-en="Brazilian Wax" data-nl="Braziliaanse wax" data-ar="الشمع البرازيلي">Brazilian Wax</h3>
+      <p data-en="If you know, you know." data-nl="Als je het weet, weet je het." data-ar="إذا كنت تعرف، فأنت تعرف.">If you know, you know.</p>
+      <p><strong data-en="Price:" data-nl="Prijs:" data-ar="السعر:">Price:</strong> €200</p>
+      <p><strong data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</strong> 150 minutes</p>
+    </div>
+  </div>
+</section>
+<section id="about">
+  <h2 data-en="About Us" data-nl="Over ons" data-ar="معلومات عنا">About Us</h2>
+  <p data-en="Barber Bros started with a dream, a pair of rusty scissors, and a lot of bad haircuts. Our founder, Ahmed, grew up in a tiny apartment where the only mirror was in the bathroom, and the “barbershop” was a stool in the kitchen. At 15, he gave his first haircut to his cousin, who left looking like a pineapple—but Ahmed didn’t give up. He spent years perfecting his craft, watching tutorials, practicing on patient friends (and less-patient siblings), and even cutting his own hair in front of that same bathroom mirror." data-nl="Barber Bros begon met een droom, een paar roestige scharen en veel slechte kapsels. Onze oprichter, Ahmed, groeide op in een klein appartement waar de enige spiegel in de badkamer was, en de 'barbershop' was een kruk in de keuken. Op 15-jarige leeftijd gaf hij zijn eerste knipbeurt aan zijn neef, die eruitzag als een ananas—maar Ahmed gaf niet op. Hij bracht jaren door met het perfectioneren van zijn vak, het kijken naar tutorials, het oefenen op geduldige vrienden (en minder geduldige broers en zussen), en zelfs het knippen van zijn eigen haar voor diezelfde badkamerspiegel." data-ar="بدأ Barber Bros بحلم، وزوج من المقصات الصدئة، والكثير من قصات الشعر السيئة. نشأ مؤسسنا، أحمد، في شقة صغيرة حيث كانت المرآة الوحيدة في الحمام، وكان 'صالون الحلاقة' عبارة عن كرسي في المطبخ. في سن الخامسة عشرة، قام بقص شعر ابن عمه لأول مرة، الذي غادر وهو يبدو مثل الأناناس—لكن أحمد لم يستسلم. قضى سنوات في إتقان حرفته، ومشاهدة الدروس، والتدرب على الأصدقاء الصبورين (والأشقاء الأقل صبراً)، وحتى قص شعره بنفسه أمام تلك المرآة في الحمام.">Barber Bros started with a dream, a pair of rusty scissors, and a lot of bad haircuts. Our founder, Ahmed, grew up in a tiny apartment where the only mirror was in the bathroom, and the “barbershop” was a stool in the kitchen. At 15, he gave his first haircut to his cousin, who left looking like a pineapple—but Ahmed didn’t give up. He spent years perfecting his craft, watching tutorials, practicing on patient friends (and less-patient siblings), and even cutting his own hair in front of that same bathroom mirror.</p>
+  <p data-en="Fast forward a few years, and Ahmed’s passion turned into Barber Bros. Today, we’re not just a barbershop—we’re a hub for great conversations, sharp styles, and unforgettable memories. Ahmed’s journey from a humble kitchen barber to a premier stylist has inspired our team to give every client the VIP treatment, whether you’re here for a quick trim or a full makeover." data-nl="Een paar jaar later veranderde Ahmed's passie in Barber Bros. Vandaag de dag zijn we niet alleen een barbershop—wij zijn een hub voor geweldige gesprekken, scherpe stijlen en onvergetelijke herinneringen. Ahmed's reis van een bescheiden keukenbarbier naar een eersteklas stylist heeft ons team geïnspireerd om elke klant de VIP-behandeling te geven, of je nu hier bent voor een snelle trim of een volledige make-over." data-ar="بعد بضع سنوات، تحولت شغف أحمد إلى Barber Bros. اليوم، نحن لسنا مجرد صالون حلاقة—نحن مركز للمحادثات الرائعة، والأنماط الحادة، والذكريات التي لا تُنسى. رحلة أحمد من حلاق مطبخ متواضع إلى مصفف شعر متميز ألهمت فريقنا لتقديم معاملة VIP لكل عميل، سواء كنت هنا لتقليم سريع أو تغيير كامل.">Fast forward a few years, and Ahmed’s passion turned into Barber Bros. Today, we’re not just a barbershop—we’re a hub for great conversations, sharp styles, and unforgettable memories. Ahmed’s journey from a humble kitchen barber to a premier stylist has inspired our team to give every client the VIP treatment, whether you’re here for a quick trim or a full makeover.</p>
+  <p data-en="At Barber Bros, we believe that every great haircut starts with a story, and we’re here to help you write yours. (Don’t worry, though—no more pineapple haircuts. We promise.)" data-nl="Bij Barber Bros geloven we dat elk geweldig kapsel begint met een verhaal, en we zijn hier om je te helpen het jouwe te schrijven. (Maak je geen zorgen, hoor—geen ananaskapsels meer. We beloven het.)" data-ar="في Barber Bros، نؤمن بأن كل قصة شعر رائعة تبدأ بقصة، ونحن هنا لمساعدتك في كتابة قصتك. (لا تقلق، لن تكون هناك قصات شعر على شكل أناناس بعد الآن. نعدك بذلك.)">At Barber Bros, we believe that every great haircut starts with a story, and we’re here to help you write yours. (Don’t worry, though—no more pineapple haircuts. We promise.)</p>
+</section>
+
+<section id="gallery">
+  <h2 data-en="Gallery" data-nl="Galerij" data-ar="معرض الصور">Gallery</h2>
+  <div class="gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPFX19CgG9api5hhKt-MkmTZhnVYcDlOMJg&s" alt="Gallery 1">
+    <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Gallery 2">
+    <img src="https://www.shortcuts.co.uk/wp-content/uploads/sites/2/2021/07/barber-shop-chairs-and-mirrors.jpg" alt="Gallery 3">
+    <img src="https://images.unsplash.com/photo-1678356164573-9a534fe43958" alt="Gallery 4">
+  </div>
+</section>
+<section id="REVIEWS">
+  <h2 data-en="Reviews" data-nl="Beoordelingen" data-ar="المراجعات">Reviews</h2>
+  <div class="testimonials">
+    <div class="testimonial-card">
+      <p data-en="Best haircut ever! Friendly staff and great service." data-nl="Beste kapsel ooit! Vriendelijk personeel en geweldige service." data-ar="أفضل قصة شعر على الإطلاق! موظفون ودودون وخدمة رائعة.">Best haircut ever! Friendly staff and great service.</p>
+      <div class="rating">
+        <span class="stars">★★★★★</span>
+        <span class="name" data-en="John Doe" data-nl="John Doe" data-ar="جون دو">John Doe</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p data-en="Excellent beard grooming. The staff was super friendly and professional!" data-nl="Uitstekende baardverzorging. Het personeel was super vriendelijk en professioneel!" data-ar="تشذيب لحية ممتاز. كان الموظفون ودودين للغاية ومحترفين!">Excellent beard grooming. The staff was super friendly and professional!</p>
+      <div class="rating">
+        <span class="stars">★★★★☆</span>
+        <span class="name" data-en="Sarah Smith" data-nl="Sarah Smith" data-ar="سارة سميث">Sarah Smith</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p data-en="Amazing service. I’ll definitely be coming back for my next cut!" data-nl="Geweldige service. Ik kom zeker terug voor mijn volgende knipbeurt!" data-ar="خدمة رائعة. سأعود بالتأكيد لقصتي التالية!">Amazing service. I’ll definitely be coming back for my next cut!</p>
+      <div class="rating">
+        <span class="stars">★★★★★</span>
+        <span class="name" data-en="Mike Johnson" data-nl="Mike Johnson" data-ar="مايك جونسون">Mike Johnson</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p data-en="Quick and professional service, highly recommend this place!" data-nl="Snelle en professionele service, ik raad deze plek ten zeerste aan!" data-ar="خدمة سريعة واحترافية، أوصي بشدة بهذا المكان!">Quick and professional service, highly recommend this place!</p>
+      <div class="rating">
+        <span class="stars">★★★☆☆</span>
+        <span class="name" data-en="Emily Brown" data-nl="Emily Brown" data-ar="إميلي براون">Emily Brown</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p data-en="The atmosphere was great, and the haircut was exactly what I asked for!" data-nl="De sfeer was geweldig en het kapsel was precies wat ik vroeg!" data-ar="كانت الأجواء رائعة، وكانت قصة الشعر بالضبط كما طلبت!">The atmosphere was great, and the haircut was exactly what I asked for!</p>
+      <div class="rating">
+        <span class="stars">★★★★★</span>
+        <span class="name" data-en="James Lee" data-nl="James Lee" data-ar="جيمس لي">James Lee</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p data-en="Fantastic beard grooming. Highly recommended!" data-nl="Fantastische baardverzorging. Zeer aan te bevelen!" data-ar="تشذيب لحية رائع. أوصي به بشدة!">Fantastic beard grooming. Highly recommended!</p>
+      <div class="rating">
+        <span class="stars">★★★★☆</span>
+        <span class="name" data-en="Chris Harris" data-nl="Chris Harris" data-ar="كريس هاريس">Chris Harris</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="appointment">
+  <h2 data-en="Book an Appointment" data-nl="Afspraak maken" data-ar="حجز موعد">Book an Appointment</h2>
+  <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <label for="name" data-en="Name:" data-nl="Naam:" data-ar="الاسم:">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email" data-en="Email:" data-nl="E-mail:" data-ar="البريد الإلكتروني:">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="service" data-en="Choose a Service:" data-nl="Kies een dienst:" data-ar="اختر خدمة:">Choose a Service:</label>
+    <select id="service" name="service" required>
+      <option value="Haircut" data-en="Haircut" data-nl="Kapsel" data-ar="قص الشعر">Haircut</option>
+      <option value="Beard Trim" data-en="Beard Trim" data-nl="Baard trimmen" data-ar="تشذيب اللحية">Beard Trim</option>
+      <option value="Styling" data-en="Styling" data-nl="Styling" data-ar="تصميم">Styling</option>
+      <option value="Hair Color" data-en="Hair Color" data-nl="Haarkleur" data-ar="لون الشعر">Hair Color</option>
+      <option value="Shave" data-en="Shave" data-nl="Scheren" data-ar="حلاقة">Shave</option>
+      <option value="Facial" data-en="Facial" data-nl="Gezichtsbehandeling" data-ar="علاج الوجه">Facial</option>
+      <option value="Brazilian Wax" data-en="Brazilian Wax" data-nl="Braziliaanse wax" data-ar="الشمع البرازيلي">Brazilian Wax</option>
+    </select>
+
+    <label for="date" data-en="Date:" data-nl="Datum:" data-ar="التاريخ:">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time" data-en="Time:" data-nl="Tijd:" data-ar="الوقت:">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit" data-en="Submit" data-nl="Verzenden" data-ar="إرسال">Submit</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2 data-en="Contact Us" data-nl="Contact" data-ar="اتصل بنا">Contact Us</h2>
+  <div>
+    <p data-en="Phone: +1234567890" data-nl="Telefoon: +1234567890" data-ar="الهاتف: +1234567890">Phone: +1234567890</p>
+    <p data-en="Email: info@barberbros.com" data-nl="E-mail: info@barberbros.com" data-ar="البريد الإلكتروني: info@barberbros.com">Email: info@barberbros.com</p>
+    <p data-en="Address: 123 Barber something, something City" data-nl="Adres: 123 Barber iets, iets Stad" data-ar="العنوان: 123 Barber شيء، شيء مدينة">Address: 123 Barber something, something City</p>
+  </div>
+</section>
+
+<footer>
+  <p data-en="&copy; 2024 Barber Bros. All Rights Reserved. Designed And Coded By Amin Shan." data-nl="&copy; 2024 Barber Bros. Alle rechten voorbehouden. Ontworpen en gecodeerd door Amin Shan." data-ar="&copy; 2024 Barber Bros. جميع الحقوق محفوظة. تصميم وبرمجة أمين شان.">&copy; 2024 Barber Bros. All Rights Reserved. Designed And Coded By Amin Shan.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
